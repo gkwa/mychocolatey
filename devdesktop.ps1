@@ -15,6 +15,5 @@ powershell -noprofile -executionpolicy unrestricted -command "(new-object System
 & choco install pscx -yes
 & choco install silverlight -yes
 & choco install sysinternals -yes
-& choco install sysinternals -yes
 & choco install vcredist2013 -yes -force
 & choco install windirstat -yes
