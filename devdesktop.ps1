@@ -3,7 +3,7 @@
 if((test-path 'vcredist_x86.exe') && !(test-path '.vcredist_x86.exe'))
 {
 	& vcredist_x86.exe /install /quiet /norestart
-    @"done sentinel"@ | Out-File .vcredist_x86.exe
+    1 | Out-File .vcredist_x86.exe
 }
 
 & choco install virtualbox --yes
