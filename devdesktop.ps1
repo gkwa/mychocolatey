@@ -1,4 +1,10 @@
-powershell -noprofile -executionpolicy unrestricted -command "(new-object System.Net.WebClient).DownloadFile('http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe','vcredist_x86.exe')" && cmd /c vcredist_x86.exe /q
+(new-object System.Net.WebClient).DownloadFile('http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe','vcredist_x86.exe')
+
+if((test-path 'vcredist_x86.exe') && !(test-path '.vcredist_x86.exe'))
+{
+	& vcredist_x86.exe /install /quiet /norestart
+    @"done sentinel"@ | Out-File .vcredist_x86.exe
+}
 
 & choco install virtualbox --yes
 & choco install vcredist2013 -yes -force
