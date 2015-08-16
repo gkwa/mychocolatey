@@ -7,6 +7,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 }
 
 & choco install virtualbox --yes
+& choco install vagrant --yes
 & choco install vcredist2013 -yes -force
 & choco install mysql.workbench -yes -forcex86
 & choco install mysql.utilities -yes -forcex86
