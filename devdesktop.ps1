@@ -6,6 +6,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
     1 | Out-File .vcredist_x86.exe
 }
 
+& choco install powershell4 -yes
 & choco install virtualbox --yes
 & choco install vagrant --yes
 & choco install vcredist2013 -yes -force
@@ -18,7 +19,6 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install cyberduck -yes
 & choco install dotnet3.5 -yes
 & choco install nmap -yes
-& choco install powershell4 -yes
 & choco install pscx -yes
 & choco install silverlight -yes
 & choco install sysinternals -yes
