@@ -6,7 +6,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
     1 | Out-File .vcredist_x86.exe
 }
 
-& choco install powershell4 -yes
+& choco install powershell -pre -yes
 & choco install virtualbox --yes
 & choco install vagrant --yes
 & choco install vcredist2013 -yes -force
