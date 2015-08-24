@@ -24,6 +24,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install sysinternals -yes
 & choco install vcredist2013 -yes -force
 & choco install putty.install -yes
+& choco install filezilla -yes
 & choco install winscp -yes
 & choco install windirstat -yes
 & choco install windowsazurepowershell -yes #must have PS 3 or higher
