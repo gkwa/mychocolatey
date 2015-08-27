@@ -21,6 +21,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install nmap -yes
 & choco install pscx -yes
 & choco install silverlight -yes
+& choco install dropbox -yes
 & choco install sysinternals -yes
 & choco install vcredist2013 -yes -force
 & choco install putty.install -yes
