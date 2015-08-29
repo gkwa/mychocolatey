@@ -14,6 +14,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install mysql.utilities -yes -forcex86
 
 & choco install 7zip -yes
+& choco install docker -yes
 & choco install Firefox -yes
 & choco install GoogleChrome -yes
 & choco install cyberduck -yes
@@ -26,6 +27,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install vcredist2013 -yes -force
 & choco install putty.install -yes
 & choco install filezilla -yes
+& choco install packer -yes
 & choco install winscp -yes
 & choco install windirstat -yes
 & choco install windowsazurepowershell -yes #must have PS 3 or higher
