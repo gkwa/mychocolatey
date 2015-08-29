@@ -14,7 +14,6 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install mysql.utilities -yes -forcex86
 
 & choco install 7zip -yes
-& choco install docker -yes
 & choco install Firefox -yes
 & choco install GoogleChrome -yes
 & choco install cyberduck -yes
