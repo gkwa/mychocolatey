@@ -6,28 +6,28 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
     1 | Out-File .vcredist_x86.exe
 }
 
-& choco install powershell -pre -yes
-& choco install virtualbox --yes
-& choco install vagrant --yes
-& choco install vcredist2013 -yes -force
-& choco install mysql.workbench -yes -forcex86
-& choco install mysql.utilities -yes -forcex86
+& choco install -pre -yes powershell
+& choco install -yes virtualbox
+& choco install -yes vagrant
+& choco install -yes -force vcredist2013
+& choco install -yes -forcex86 mysql.workbench
+& choco install -yes -forcex86 mysql.utilities
 
-& choco install 7zip -yes
-& choco install Firefox -yes
-& choco install GoogleChrome -yes
-& choco install cyberduck -yes
-& choco install dotnet3.5 -yes
-& choco install onedrive -yes
-& choco install nmap -yes
-& choco install pscx -yes
-& choco install silverlight -yes
-& choco install dropbox -yes
-& choco install sysinternals -yes
-& choco install vcredist2013 -yes -force
-& choco install putty.install -yes
-& choco install filezilla -yes
-& choco install packer -yes
-& choco install winscp -yes
-& choco install windirstat -yes
-& choco install windowsazurepowershell -yes #must have PS 3 or higher
+& choco install -yes 7zip
+& choco install -yes Firefox
+& choco install -yes GoogleChrome
+& choco install -yes cyberduck
+& choco install -yes dotnet3.5
+& choco install -yes onedrive
+& choco install -yes nmap
+& choco install -yes pscx
+& choco install -yes silverlight
+& choco install -yes dropbox
+& choco install -yes sysinternals
+& choco install -yes -force vcredist2013
+& choco install -yes putty.install
+& choco install -yes filezilla
+& choco install -yes packer
+& choco install -yes winscp
+& choco install -yes windirstat
+& choco install -yes windowsazurepowershell #must have PS 3 or higher
