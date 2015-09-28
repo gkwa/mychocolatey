@@ -34,6 +34,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install -yes putty.install
 & choco install -yes filezilla
 & choco install -yes packer
+& choco install -yes vlc
 & choco install -yes winscp
 & choco install -yes windirstat
 & choco install -yes windowsazurepowershell #must have PS 3 or higher
