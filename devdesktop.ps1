@@ -13,6 +13,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install -yes -forcex86 mysql.workbench
 & choco install -yes -forcex86 mysql.utilities
 
+& choco install -yes imdisk
 & choco install -yes chocolateypackageupdater
 & choco install -yes atom
 & choco install -yes keepass
