@@ -1,3 +1,5 @@
+$env:path += ";$pwd"
+
 (new-object System.Net.WebClient).DownloadFile('http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe','vcredist_x86.exe')
 
 if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
