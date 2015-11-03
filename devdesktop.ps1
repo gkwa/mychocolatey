@@ -29,7 +29,6 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install -yes cyberduck
 & choco install -yes dotnet3.5
 & choco install -yes onedrive
-& choco install -yes tightvnc
 & choco install -yes nmap
 & choco install -yes pscx
 & choco install -yes silverlight
