@@ -25,6 +25,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install -yes nxlog
 & choco install -yes 7zip
 & choco install -yes Firefox
+& choco install -yes visualstudio2015community
 & choco install -yes GoogleChrome
 & choco install -yes cyberduck
 & choco install -yes dotnet3.5
