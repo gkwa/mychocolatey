@@ -21,7 +21,7 @@ if((test-path 'vcredist_x86.exe') -and !(test-path '.vcredist_x86.exe'))
 & choco install -yes atom
 & choco install -yes keepass
 & choco install -yes jdk8
-# & choco install -yes -forcex86 jq # grep/pretty print json # choco installer fails
+& choco install -yes -forcex86 jq # grep/pretty print json
 & choco install -yes universal-usb-installer
 & choco install -yes nxlog
 & choco install -yes 7zip
