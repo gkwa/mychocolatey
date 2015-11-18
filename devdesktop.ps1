@@ -9,7 +9,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
 }
 
 choco install -yes nuget.commandline
-choco install -pre -yes powershell4
+choco install -yes powershell4
 choco install -yes virtualbox
 choco install -yes vagrant
 choco install -yes -force vcredist2013
