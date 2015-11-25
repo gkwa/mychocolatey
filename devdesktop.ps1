@@ -18,6 +18,7 @@ choco install -yes -forcex86 mysql.utilities
 
 choco install -yes imdisk
 choco install -yes chocolateypackageupdater
+choco install -yes chefdk
 choco install -yes atom
 choco install -yes keepass
 choco install -yes jdk8
