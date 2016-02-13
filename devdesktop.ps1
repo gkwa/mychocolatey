@@ -8,6 +8,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
     1 | Out-File .\vcredist_x86.exe
 }
 
+choco install -yes everything
 choco install -yes nuget.commandline
 choco install -yes powershell4
 choco install -yes virtualbox
