@@ -8,6 +8,8 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
     1 | Out-File .\vcredist_x86.exe
 }
 
+choco install -yes brackets
+choco install -yes brackets.theseus
 choco install -yes kdiff3
 choco install -yes p4merge
 choco install -yes winmerge
