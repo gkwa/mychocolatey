@@ -8,6 +8,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
     1 | Out-File .\vcredist_x86.exe
 }
 
+choco install -yes mediainfo
 choco install -yes opera
 choco install -yes linkshellextension
 choco install -yes brackets
