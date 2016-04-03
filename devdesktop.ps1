@@ -8,6 +8,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
     1 | Out-File .\vcredist_x86.exe
 }
 
+choco install -yes xming
 choco install -yes setacl
 choco install -yes rktools.2003 # provides ntrights http://superuser.com/a/747100/185226
 choco install -yes mediainfo
