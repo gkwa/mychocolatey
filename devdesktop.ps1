@@ -59,5 +59,6 @@ choco install -yes vlc
 choco install -yes winscp
 choco install -yes windirstat
 choco install -yes windowsazurepowershell #must have PS 3 or higher
+choco install -yes winpcap
 choco install -yes wireshark
 choco install -yes wixtoolset
