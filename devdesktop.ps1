@@ -8,6 +8,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
     1 | Out-File .\vcredist_x86.exe
 }
 
+choco install -yes nssm
 choco install -yes microsoft-build-tools
 choco install -yes msbuild.communitytasks
 choco install -yes msbuild.extensionpack
