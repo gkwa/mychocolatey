@@ -45,6 +45,7 @@ choco install -yes jdk8
 choco install -yes -forcex86 jq
 choco install -yes universal-usb-installer
 choco install -yes nxlog
+choco install -yes 7zip.commandline
 choco install -yes 7zip
 choco install -yes Firefox
 choco install -yes visualstudio2015community
