@@ -29,6 +29,11 @@ choco install -yes winmerge
 choco install -yes cs-script
 choco install -yes everything
 choco install -yes nuget.commandline
+choco install -yes nuget.vs
+choco install -yes nuget.contextmenu
+choco install -yes nugetpackagemanager
+choco install -yes nugetpackagemanagerforvisualstudio2013
+choco install -yes nugetpackageexplorer
 choco install -yes powershell4
 choco install -yes virtualbox -version 4.3.34
 choco install -yes vagrant
