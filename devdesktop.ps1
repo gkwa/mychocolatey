@@ -8,6 +8,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
     1 | Out-File .\vcredist_x86.exe
 }
 
+choco install -yes vim
 choco install -yes visioviewer
 choco install -yes maven
 choco install -yes imagemagick
