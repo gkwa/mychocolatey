@@ -8,77 +8,81 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
     1 | Out-File .\vcredist_x86.exe
 }
 
-choco install -yes awscli
-choco install -yes realvnc
-choco install -yes vim
-choco install -yes visioviewer
-choco install -yes maven
-choco install -yes imagemagick
-choco install -yes lua
-choco install -yes console2
-choco install -yes imgburn
-choco install -yes nssm
-choco install -yes microsoft-build-tools
-choco install -yes msbuild.communitytasks
-choco install -yes msbuild.extensionpack
-choco install -yes autoit
-choco install -yes nodejs.install
-choco install -yes xming
-choco install -yes setacl
-choco install -yes rktools.2003 # provides ntrights http://superuser.com/a/747100/185226
-choco install -yes mediainfo
-choco install -yes opera
-choco install -yes linkshellextension
-choco install -yes brackets
-choco install -yes brackets.theseus
-choco install -yes kdiff3
-choco install -yes p4merge
-choco install -yes winmerge
-choco install -yes cs-script
-choco install -yes everything
-choco install -yes nuget.commandline
-choco install -yes nuget.vs
-choco install -yes nuget.contextmenu
-choco install -yes nugetpackagemanager
-choco install -yes nugetpackagemanagerforvisualstudio2013
-choco install -yes nugetpackageexplorer
-choco install -yes powershell4
-choco install -yes virtualbox -version 4.3.34
-choco install -yes vagrant
-choco install -yes -force vcredist2013
-choco install -yes -forcex86 mysql.workbench
-choco install -yes -forcex86 mysql.utilities
 
-choco install -yes imdisk
-choco install -yes chocolateypackageupdater
-choco install -yes chefdk
-choco install -yes atom
-choco install -yes keepass
-choco install -yes jdk8
-choco install -yes -forcex86 jq
-choco install -yes universal-usb-installer
-choco install -yes nxlog
-choco install -yes 7zip.commandline
-choco install -yes 7zip
-choco install -yes Firefox
-choco install -yes visualstudio2015community
-choco install -yes GoogleChrome
-choco install -yes cyberduck
-choco install -yes dotnet3.5
-choco install -yes onedrive
-choco install -yes nmap
-choco install -yes pscx
-choco install -yes silverlight
-choco install -yes dropbox
-choco install -yes sysinternals
-choco install -yes -force vcredist2013
-choco install -yes putty.install
-choco install -yes filezilla
-choco install -yes packer
-choco install -yes vlc
-choco install -yes winscp
-choco install -yes windirstat
-choco install -yes windowsazurepowershell #must have PS 3 or higher
-choco install -yes winpcap
-choco install -yes wireshark
-choco install -yes wixtoolset
+choco install --allow-empty-checksums -yes rubymine
+choco install --allow-empty-checksums -yes pycharm
+choco install --allow-empty-checksums -yes phpstorm
+choco install --allow-empty-checksums -yes webstorm
+choco install --allow-empty-checksums -yes awscli
+choco install --allow-empty-checksums -yes realvnc
+choco install --allow-empty-checksums -yes vim
+choco install --allow-empty-checksums -yes visioviewer
+choco install --allow-empty-checksums -yes maven
+choco install --allow-empty-checksums -yes imagemagick
+choco install --allow-empty-checksums -yes lua
+choco install --allow-empty-checksums -yes console2
+choco install --allow-empty-checksums -yes imgburn
+choco install --allow-empty-checksums -yes nssm
+choco install --allow-empty-checksums -yes microsoft-build-tools
+choco install --allow-empty-checksums -yes msbuild.communitytasks
+choco install --allow-empty-checksums -yes msbuild.extensionpack
+choco install --allow-empty-checksums -yes autoit
+choco install --allow-empty-checksums -yes nodejs.install
+choco install --allow-empty-checksums -yes xming
+choco install --allow-empty-checksums -yes setacl
+choco install --allow-empty-checksums -yes rktools.2003 # provides ntrights http://superuser.com/a/747100/185226
+choco install --allow-empty-checksums -yes mediainfo
+choco install --allow-empty-checksums -yes opera
+choco install --allow-empty-checksums -yes linkshellextension
+choco install --allow-empty-checksums -yes brackets
+choco install --allow-empty-checksums -yes brackets.theseus
+choco install --allow-empty-checksums -yes kdiff3
+choco install --allow-empty-checksums -yes p4merge
+choco install --allow-empty-checksums -yes winmerge
+choco install --allow-empty-checksums -yes cs-script
+choco install --allow-empty-checksums -yes everything
+choco install --allow-empty-checksums -yes nuget.commandline
+choco install --allow-empty-checksums -yes nuget.vs
+choco install --allow-empty-checksums -yes nuget.contextmenu
+choco install --allow-empty-checksums -yes nugetpackagemanager
+choco install --allow-empty-checksums -yes nugetpackagemanagerforvisualstudio2013
+choco install --allow-empty-checksums -yes nugetpackageexplorer
+choco install --allow-empty-checksums -yes powershell4
+choco install --allow-empty-checksums -yes virtualbox -version 4.3.34
+choco install --allow-empty-checksums -yes vagrant
+choco install --allow-empty-checksums -yes -force vcredist2013
+choco install --allow-empty-checksums -yes -forcex86 mysql.workbench
+choco install --allow-empty-checksums -yes -forcex86 mysql.utilities
+choco install --allow-empty-checksums -yes imdisk
+choco install --allow-empty-checksums -yes chocolateypackageupdater
+choco install --allow-empty-checksums -yes chefdk
+choco install --allow-empty-checksums -yes atom
+choco install --allow-empty-checksums -yes keepass
+choco install --allow-empty-checksums -yes jdk8
+choco install --allow-empty-checksums -yes -forcex86 jq
+choco install --allow-empty-checksums -yes universal-usb-installer
+choco install --allow-empty-checksums -yes nxlog
+choco install --allow-empty-checksums -yes 7zip.commandline
+choco install --allow-empty-checksums -yes 7zip
+choco install --allow-empty-checksums -yes Firefox
+choco install --allow-empty-checksums -yes visualstudio2015community
+choco install --allow-empty-checksums -yes GoogleChrome
+choco install --allow-empty-checksums -yes cyberduck
+choco install --allow-empty-checksums -yes dotnet3.5
+choco install --allow-empty-checksums -yes onedrive
+choco install --allow-empty-checksums -yes nmap
+choco install --allow-empty-checksums -yes pscx
+choco install --allow-empty-checksums -yes silverlight
+choco install --allow-empty-checksums -yes dropbox
+choco install --allow-empty-checksums -yes sysinternals
+choco install --allow-empty-checksums -yes -force vcredist2013
+choco install --allow-empty-checksums -yes putty.install
+choco install --allow-empty-checksums -yes filezilla
+choco install --allow-empty-checksums -yes packer
+choco install --allow-empty-checksums -yes vlc
+choco install --allow-empty-checksums -yes winscp
+choco install --allow-empty-checksums -yes windirstat
+choco install --allow-empty-checksums -yes windowsazurepowershell #must have PS 3 or higher
+choco install --allow-empty-checksums -yes winpcap
+choco install --allow-empty-checksums -yes wireshark
+choco install --allow-empty-checksums -yes wixtoolset
