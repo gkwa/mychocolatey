@@ -9,6 +9,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
 }
 
 
+choco install --allow-empty-checksums -yes shutdownguard
 choco install --allow-empty-checksums -yes boxstarter
 choco install --allow-empty-checksums -yes rubymine
 choco install --allow-empty-checksums -yes pycharm
