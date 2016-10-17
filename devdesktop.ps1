@@ -9,6 +9,12 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
 }
 
 
+choco install --allow-empty-checksums -yes clink
+choco install --allow-empty-checksums -yes conemu
+choco install --allow-empty-checksums -yes console2
+choco install --allow-empty-checksums -yes visualstudiocode
+choco install --allow-empty-checksums -yes WindowsAzureLibsForNet
+choco install --allow-empty-checksums -yes psake
 choco install --allow-empty-checksums -yes fciv
 choco install --allow-empty-checksums -yes notepadplusplus
 choco install --allow-empty-checksums -yes shutdownguard
