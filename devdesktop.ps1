@@ -9,6 +9,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
 }
 
 
+choco install --allow-empty-checksums -yes debugdiagnostic
 choco install --allow-empty-checksums -yes clink
 choco install --allow-empty-checksums -yes conemu
 choco install --allow-empty-checksums -yes console2
