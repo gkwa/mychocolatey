@@ -9,6 +9,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
 }
 
 
+choco install --allow-empty-checksums -yes jenkins
 choco install --allow-empty-checksums -yes rust
 choco install --allow-empty-checksums -yes flashplayeractivex
 choco install --allow-empty-checksums -yes flashplayerplugin
