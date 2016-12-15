@@ -57,7 +57,6 @@ choco install --allow-empty-checksums -yes kdiff3
 choco install --allow-empty-checksums -yes p4merge
 choco install --allow-empty-checksums -yes winmerge
 choco install --allow-empty-checksums -yes cs-script
-choco install --allow-empty-checksums -yes everything
 choco install --allow-empty-checksums -yes nuget.commandline
 choco install --allow-empty-checksums -yes nuget.vs
 choco install --allow-empty-checksums -yes nuget.contextmenu
