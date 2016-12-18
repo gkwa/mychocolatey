@@ -85,7 +85,6 @@ choco install --allow-empty-checksums -yes visualstudio2015community
 choco install --allow-empty-checksums -yes GoogleChrome
 choco install --allow-empty-checksums -yes cyberduck
 choco install --allow-empty-checksums -yes dotnet3.5
-choco install --allow-empty-checksums -yes onedrive
 choco install --allow-empty-checksums -yes nmap
 choco install --allow-empty-checksums -yes pscx
 choco install --allow-empty-checksums -yes silverlight
