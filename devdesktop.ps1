@@ -9,6 +9,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
 }
 
 
+choco install --allow-empty-checksums -yes git-credential-manager-for-windows
 choco install --allow-empty-checksums -yes git
 choco install --allow-empty-checksums -yes jenkins
 choco install --allow-empty-checksums -yes rust
