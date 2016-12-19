@@ -65,7 +65,7 @@ choco install --allow-empty-checksums -yes nugetpackagemanager
 choco install --allow-empty-checksums -yes nugetpackagemanagerforvisualstudio2013
 choco install --allow-empty-checksums -yes nugetpackageexplorer
 choco install --allow-empty-checksums -yes powershell4
-choco install --allow-empty-checksums -yes virtualbox -version 4.3.34
+choco install --allow-empty-checksums -yes virtualbox
 choco install --allow-empty-checksums -yes vagrant
 choco install --allow-empty-checksums -yes -force vcredist2013
 choco install --allow-empty-checksums -yes -forcex86 mysql.workbench
