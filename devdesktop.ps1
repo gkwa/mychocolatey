@@ -8,6 +8,7 @@ if((test-path .\vcredist_x86.exe) -and !(test-path .\vcredist_x86.exe))
     1 | Out-File .\vcredist_x86.exe
 }
 
+choco feature enable -n allowGlobalConfirmation
 
 choco install --allow-empty-checksums -yes git-credential-manager-for-windows
 choco install --allow-empty-checksums -yes git
