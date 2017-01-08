@@ -66,6 +66,7 @@ choco install --allow-empty-checksums -yes nugetpackagemanager
 choco install --allow-empty-checksums -yes nugetpackagemanagerforvisualstudio2013
 choco install --allow-empty-checksums -yes nugetpackageexplorer
 choco install --allow-empty-checksums -yes powershell4
+choco install --allow-empty-checksums -yes powershell # install latest powershell
 choco install --allow-empty-checksums -yes virtualbox
 choco install --allow-empty-checksums -yes virtualbox.extensionpack
 choco install --allow-empty-checksums -yes vagrant
