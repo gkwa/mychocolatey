@@ -82,7 +82,7 @@ choco install --allow-empty-checksums -yes jdk8
 choco install --allow-empty-checksums -yes -forcex86 jq
 choco install --allow-empty-checksums -yes universal-usb-installer
 choco install --allow-empty-checksums -yes nxlog
-choco install --allow-empty-checksums -yes 7zip.commandline
+choco install --allow-empty-checksums -yes 7zip.install
 choco install --allow-empty-checksums -yes 7zip
 choco install --allow-empty-checksums -yes Firefox
 choco install --allow-empty-checksums -yes visualstudio2015community
