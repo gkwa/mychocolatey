@@ -34,7 +34,7 @@ choco install --allow-empty-checksums -yes phpstorm
 choco install --allow-empty-checksums -yes webstorm
 choco install --allow-empty-checksums -yes awscli
 choco install --allow-empty-checksums -yes realvnc
-choco install --allow-empty-checksums -yes vim
+choco install --allow-empty-checksums -yes vim-tux.portable #chocolatey vim installer installs 64bit even with --forcex86 option
 choco install --allow-empty-checksums -yes visioviewer
 choco install --allow-empty-checksums -yes maven
 choco install --allow-empty-checksums -yes imagemagick
